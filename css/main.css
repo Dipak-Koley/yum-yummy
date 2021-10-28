@@ -1,0 +1,62 @@
+.root{
+    margin: 0px;
+    padding: 0px;
+}
+.logoName{
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
+}
+.search{
+    border-color: tomato;
+    border-radius: 5px;
+    height: 30px;
+    vertical-align:text-bottom;
+    font-family: 'Oswald', sans-serif;
+    width: 470px;
+}
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: #ff6600;
+    border-bottom: tomato;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;;
+    border-style:solid;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  }
+  .tab{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .tab:hover{
+      background-color: #ffdfc9;
+  }
+  .inline{
+      display: inline;
+  }
+  #searchButton{
+    background-color: #ffdfc9;
+    height: 35px;
+    width: 100px;
+    color:tomato;
+  }
+  #searchButton:hover{
+      background-color: whitesmoke;
+  }
+  ::placeholder{
+      color: tomato;
+  }
+  .home{
+      background-color: tomato;
+      font-family: 'Oswald', sans-serif;
+      color:whitesmoke;
+      font-size: 20px;
+  }
+  .section{
+      font-size: 30px;
+  }
