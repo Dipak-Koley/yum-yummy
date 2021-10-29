@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>yum-yummy</title>
+        <script type="text/javascript" src="./js/main.js"></script>
         <link rel="icon" href="./icon/logo.jpg">
         <link rel="stylesheet" href="./css/main.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,14 +20,72 @@
             </ul>
             <form class="inline">
                 <input type="text" class="inline search" placeholder="e.g. Pizza">
-                <input type="button" class="inline search" id="searchButton" value="Search">
+                <input type="button" onclick="myFunction()" class="inline search" id="searchButton" value="Search">
             </form>
         </div>
         <div class="home">
+            <br><br>
             <img src="./images/pizza.jpg" width="100%" height="400px">
-            <div class="section"><b>Who we are?</b></div>
-            We are yum yummy offline restorent. You can call us & make an order within Kalna, West Bengal area. You will be able to order online soon. Please visite our restorent. We offer home delivery too.You can avail <strong><font color="yellow">30% off</font></strong> on each item. Thank you.
+            <div class="section background"><b>Who we are?</b></div>
+            <div class="background">
+                We are yum yummy offline restorent. You can call us & make an 
+                order within Kalna, West Bengal area. You will be able to order
+                 online soon. Please visite our restorent. We offer home delivery
+                  too.You can avail <strong><font color="yellow">30% off</font></strong>
+                   on each item. Thank you.
+            </div>
         </div>
-
+        <div class="products">
+            <div class="tab"><b>Products</b></div>
+            <div class="box inline-block">
+                <img src="./images/1.jpg" alt="barger" width="100%" height="80%">
+                <b class="desc"> Product Name: Barger</b><br>
+                <b class="desc">₹ <del>100</del> 70</b>          
+            </div>
+            <div class="box inline-block">
+                <img src="./images/2.jpg" width="100%" alt="pizza" height="80%">
+                <b class="desc"> Product Name: Pizza</b><br>
+                <b class="desc">₹ <del>200</del> 140</b>
+            </div>
+            <div class="box inline-block">
+                <img src="./images/3.jpg" width="100%" alt="chow Mein" height="80%">
+                <b class="desc"> Product Name: Chow Mein</b><br>
+                <b class="desc">₹ <del>100</del> 70</b>
+            </div>
+            <div class="box inline-block">
+                <img src="./images/4.jpg" width="100%" alt="moglai" height="80%">
+                <b class="desc"> Product Name: Moglai</b><br>
+                <b class="desc">₹ <del>100</del> 70</b>
+            </div>
+            <div class="box inline-block">
+                <img src="./images/5.jpg" width="100%" alt="biriyani" height="80%">
+                <b class="desc"> Product Name: Biriyani</b><br>
+                <b class="desc">₹ <del>200</del> 140</b>
+            </div>
+            <div class="box inline-block">
+                <img src="./images/6.jpg" width="100%" alt="chiken curry" height="80%">
+                <b class="desc"> Product Name: Chiken Curry</b><br>
+                <b class="desc">₹ <del>300</del> 210</b>
+            </div>
+        </div>
+        <div class="contactUs">
+            <div class="tab"><b>Contact Us</b></div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.9590422146653!2d88.35641981428608!3d23.208163215191604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8e50b449014bd%3A0xb123563b179fc7d3!2sTaramaa%20Tailors!5e0!3m2!1sen!2sin!4v1635493639835!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="feedback" id="feedback">
+            <div class="tab"><b>Feedback</b></div>
+            <form class="form"> 
+                <label>Name  </label><br>
+                <input type="text" class="search" placeholder="Enter Name"><br>
+                <label>Email </label><br>
+                <input type="email" class="search" placeholder="Enter Email"><br>
+                <label>Phone</label><br>
+                <input type="text" class="search" placeholder="Enter Phone"><br>
+                <label>Suggestion</label><br>
+                <textarea id="txtArea" class="suggestion" rows="10" cols="55" placeholder="Your suggestion ..."></textarea>
+                <br><input type="button" class="search" value="Submit" onclick="myFunction()">
+            </form>
+            <a href="https://www.linkedin.com/in/dipak-koley/"><font color="white">©Dipak Koley</font></a>
+        </div>
     </body>
 </html>
