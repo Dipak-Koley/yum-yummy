@@ -34,8 +34,9 @@
     font-size: 30px;
     padding-left: 10px;
     padding-right: 10px;
+    font: #ff6600;
   }
-  li.tab:hover{
+    li.tab:hover{
       background-color: #ffdfc9;
   }
   .inline{
@@ -67,6 +68,7 @@
   }
   .background{
     background-color: #ff6600;
+    padding-bottom: 10px;
   }
   .box{
     width: 30%;
@@ -106,3 +108,16 @@
 html {
     scroll-behavior: smooth;
   }
+  a {
+    text-decoration: none !important;
+  }
+  @media screen and (max-width:768px) {
+      .box{
+          width: 50%;
+      }
+  }
+  @media screen and (min-width:769px)  and (max-width: 1200px){
+    .box{
+        width: 35%;
+    }
+}
